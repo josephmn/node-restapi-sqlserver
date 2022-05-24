@@ -1,8 +1,8 @@
 "use strict";
 
-var _app = _interopRequireDefault(require("./app"));
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+var _app = _interopRequireDefault(require("./app"));
 
 // import './database/connection';
 _app["default"].listen(_app["default"].get('port'));
